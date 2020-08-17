@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+
+body{
+    background-image: url(coffee.jpg);
+    width: 100%;
+    height: 400px;
+    
+
+
+
+}
+
+
+
+header { 
+    padding: 20px;
+    text-align: center;
+    background-color: chocolate;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+nav ul{
+    padding: 10px;
+    display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 10px;
+    width: 50px;
+}
+
+nav ul li :hover{
+    border: 2px solid blanchedalmond;
+    border-radius: 10px;
+}
